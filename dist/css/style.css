@@ -717,7 +717,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr; }
     .grid #chica {
-      font-size: 1.9rem; }
+      font-size: 1.5rem; }
 
   .proch {
     width: 50%; }
@@ -734,6 +734,8 @@ footer {
   .finalLogo h2 {
     margin-left: 0.5rem; }
 
+  .lechic .container #chiclittle {
+    font-size: 1.4rem; }
   .lechic .container .appe h2:before {
     content: '';
     width: 4rem;
@@ -776,7 +778,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 6%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 80%;
     background: #6e4ccc;
@@ -785,7 +787,7 @@ footer {
   .lechic .container .gour h2:after {
     content: '';
     position: absolute;
-    width: 6%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 100%;
     background: #6e4ccc;

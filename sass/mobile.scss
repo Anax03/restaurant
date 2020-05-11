@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
 
     #chica {
-      font-size: 1.9rem;
+      font-size: 1.5rem;
     }
   }
   .proch {
@@ -39,6 +39,9 @@
 /// Decoration lines Lechic
 @mixin Lines {
   .lechic .container {
+    #chiclittle {
+      font-size: 1.4rem;
+    }
     .appe {
       @include decore(#c67412, 9%);
     }
@@ -47,7 +50,7 @@
     }
 
     .gour {
-      @include decore(#6e4ccc, 6%);
+      @include decore(#6e4ccc, 3%);
     }
   }
 }
