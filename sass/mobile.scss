@@ -36,6 +36,9 @@
 @mixin Lines {
   .lechic .container {
     .appe {
+      h2 {
+        font-size: 1.3rem;
+      }
       @include decore(#c67412, 3%);
     }
     .papilles {

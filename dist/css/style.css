@@ -732,6 +732,8 @@ footer {
   .finalLogo h2 {
     margin-left: 0.5rem; }
 
+  .lechic .container .appe h2 {
+    font-size: 1.3rem; }
   .lechic .container .appe h2:before {
     content: '';
     width: 4rem;
