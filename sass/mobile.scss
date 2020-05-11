@@ -6,10 +6,6 @@
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr;
-
-    #chica {
-      font-size: 1.5rem;
-    }
   }
   .proch {
     width: 50%;
@@ -40,10 +36,10 @@
 @mixin Lines {
   .lechic .container {
     .appe {
-      @include decore(#c67412, 9%);
+      @include decore(#c67412, 3%);
     }
     .papilles {
-      @include decore(#a56799, 10%);
+      @include decore(#a56799, 3%);
     }
 
     .gour {

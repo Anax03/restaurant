@@ -716,8 +716,6 @@ footer {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr; }
-    .grid #chica {
-      font-size: 1.5rem; }
 
   .proch {
     width: 50%; }
@@ -738,7 +736,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 9%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 80%;
     background: #c67412;
@@ -747,7 +745,7 @@ footer {
   .lechic .container .appe h2:after {
     content: '';
     position: absolute;
-    width: 9%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 100%;
     background: #c67412;
@@ -757,7 +755,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 10%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 80%;
     background: #a56799;
@@ -766,7 +764,7 @@ footer {
   .lechic .container .papilles h2:after {
     content: '';
     position: absolute;
-    width: 10%;
+    width: 3%;
     height: 0.4rem;
     border-radius: 100%;
     background: #a56799;
