@@ -33,7 +33,7 @@
     }
     //Le chic à la française
     .lechic {
-      @include Gridat($lechicBackground, $Croissant, $Medieva);
+      @include Gridat($lechicBackground, $dancing-script, $Medieva);
       @include Colors(
         $lechicMenuFontColor,
         $lechicfontColorgradiant1,
