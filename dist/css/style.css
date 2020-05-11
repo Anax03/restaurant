@@ -115,8 +115,7 @@
 
 body {
   line-height: 1.4;
-  font-family: "Open Sans", sans-serif;
-  background: #e9ebee; }
+  font-family: "Open Sans", sans-serif; }
 
 a {
   text-decoration: none;
@@ -565,7 +564,7 @@ footer {
 .ledelice .container h1 {
   font-family: "Dancing Script", cursive;
   font-weight: bolder;
-  font-size: 3rem; }
+  font-size: 2rem; }
 .ledelice .container .a h2:before {
   content: '';
   width: 4rem;
@@ -645,7 +644,7 @@ footer {
 .lepalette .container h1 {
   font-family: "Kaushan Script", cursive;
   font-weight: bolder;
-  font-size: 3rem; }
+  font-size: 2rem; }
 .lepalette .container .e h2:before {
   content: '';
   width: 4rem;
@@ -775,7 +774,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 80%;
     background: #6e4ccc;
@@ -784,7 +783,7 @@ footer {
   .lechic .container .gour h2:after {
     content: '';
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 100%;
     background: #6e4ccc;
@@ -795,7 +794,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 9%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 80%;
     background: #0228dd;
@@ -804,7 +803,7 @@ footer {
   .ledelice .container .a h2:after {
     content: '';
     position: absolute;
-    width: 9%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 100%;
     background: #0228dd;
@@ -814,7 +813,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 80%;
     background: #0670f3;
@@ -823,7 +822,7 @@ footer {
   .ledelice .container .b h2:after {
     content: '';
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 100%;
     background: #0670f3;
@@ -833,7 +832,7 @@ footer {
     content: '';
     width: 4rem;
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 80%;
     background: #6e4ccc;
@@ -842,7 +841,7 @@ footer {
   .ledelice .container .c h2:after {
     content: '';
     position: absolute;
-    width: 10%;
+    width: 6%;
     height: 0.4rem;
     border-radius: 100%;
     background: #6e4ccc;

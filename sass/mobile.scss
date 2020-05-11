@@ -43,7 +43,7 @@
     }
 
     .gour {
-      @include decore(#6e4ccc, 10%);
+      @include decore(#6e4ccc, 6%);
     }
   }
 }
@@ -53,14 +53,14 @@
 @mixin Lines2 {
   .ledelice .container {
     .a {
-      @include decore(#0228dd, 9%);
+      @include decore(#0228dd, 6%);
     }
     .b {
-      @include decore(#0670f3, 10%);
+      @include decore(#0670f3, 6%);
     }
 
     .c {
-      @include decore(#6e4ccc, 10%);
+      @include decore(#6e4ccc, 6%);
     }
   }
 }
