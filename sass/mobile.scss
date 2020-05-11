@@ -39,9 +39,6 @@
 /// Decoration lines Lechic
 @mixin Lines {
   .lechic .container {
-    #chiclittle {
-      font-size: 1.4rem;
-    }
     .appe {
       @include decore(#c67412, 9%);
     }

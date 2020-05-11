@@ -35,7 +35,7 @@
     .lechic {
       @include Gridat($lechicBackground, $dancing-script, $Medieva);
       @include Colors(
-        $lechicMenuFontColor,
+        $ledeliceFontMenuColor,
         $lechicfontColorgradiant1,
         $lechicFontColorGradiant2
       );

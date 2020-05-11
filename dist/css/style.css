@@ -223,7 +223,7 @@ header {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; }
     .grid .lechic h3 {
-      color: #c77412; }
+      color: #0887fb; }
   .grid .ledelic {
     text-align: center;
     height: 70vh;
@@ -734,8 +734,6 @@ footer {
   .finalLogo h2 {
     margin-left: 0.5rem; }
 
-  .lechic .container #chiclittle {
-    font-size: 1.4rem; }
   .lechic .container .appe h2:before {
     content: '';
     width: 4rem;
