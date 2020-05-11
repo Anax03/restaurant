@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'mobile';
+@import 'functions';
+@import 'lanote';
+@import 'index';
+@import 'lechic';
+@import 'ledelice';
+@import 'lepalette';
+@import 'mention';
+
+// General styling
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.4;
+  font-family: $openSan;
+  background: #e9ebee;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+///Index
+@include indexx;
+
+///Lanote
+@include lanote;
+
+///Lechic
+@include lechic;
+
+///Ledelice
+@include ledelice;
+
+///Lepalette
+@include lepalette;
+///Mentions
+@include mentions;
+
+/////Mobile
+@media screen and (max-width: 768px) {
+  @include mobileIndex;
+  @include mobileMenus;
+  @include Lines;
+  @include Lines2;
+  @include Lines3;
+}

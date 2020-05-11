@@ -1,0 +1,83 @@
+@import 'functions';
+
+@mixin mobileIndex {
+  .grid {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .proch {
+    width: 50%;
+  }
+}
+
+@mixin mobileMenus {
+  .sections .container {
+    width: 95%;
+  }
+
+  .lanote .decor h2:before {
+    width: 13%;
+  }
+
+  .lanote .decor h2:after {
+    width: 13%;
+  }
+
+  .finalLogo {
+    h2 {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+/// Decoration lines Lechic
+@mixin Lines {
+  .lechic .container {
+    .appe {
+      @include decore(#c67412, 9%);
+    }
+    .papilles {
+      @include decore(#a56799, 10%);
+    }
+
+    .gour {
+      @include decore(#6e4ccc, 10%);
+    }
+  }
+}
+
+/// Decoration lines Ledelice
+
+@mixin Lines2 {
+  .ledelice .container {
+    .a {
+      @include decore(#0228dd, 9%);
+    }
+    .b {
+      @include decore(#0670f3, 10%);
+    }
+
+    .c {
+      @include decore(#6e4ccc, 10%);
+    }
+  }
+}
+
+//Decoration Lines lepalette
+
+@mixin Lines3 {
+  .lepalette .container {
+    .e {
+      @include decore(#4da043, 12%);
+    }
+    .f {
+      @include decore(#a5ea71, 10%);
+    }
+
+    .g {
+      @include decore(#8bd464, 10%);
+    }
+  }
+}

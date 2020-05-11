@@ -1,0 +1,31 @@
+@import 'functions';
+@import 'variables';
+
+@mixin lepalette {
+  .lepalette {
+    @include sec($lepaletteBackground);
+    @include ColorsTitre(
+      $lepalettefontColorgradiant1,
+      $ledeliceFontColorGradiant2
+    );
+
+    .container {
+      h1 {
+        font-family: $kaushan;
+        font-weight: bolder;
+        font-size: 3rem;
+      }
+
+      .e {
+        @include decore(#4da043, 30%);
+      }
+      .f {
+        @include decore(#a5ea71, 30%);
+      }
+
+      .g {
+        @include decore(#8bd464, 30%);
+      }
+    }
+  }
+}

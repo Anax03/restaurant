@@ -1,0 +1,43 @@
+@import 'functions';
+@import 'variables';
+@mixin lechic {
+  .lechic {
+    @include sec($lechicBackground);
+
+    .container {
+      h1 {
+        font-weight: bolder;
+        font-size: 2rem;
+      }
+      @include ColorsTitre(
+        $lechicfontColorgradiant1,
+        $lechicFontColorGradiant2
+      );
+
+      .appe {
+        @include decore(#c67412, 30%);
+      }
+      .papilles {
+        @include decore(#a56799, 30%);
+      }
+
+      .gour {
+        @include decore(#6e4ccc, 30%);
+      }
+      .appe,
+      .brown {
+        color: #c67412;
+      }
+
+      .papilles,
+      .purple {
+        color: #a56799;
+      }
+
+      .blue,
+      .gour {
+        color: #6e4ccc;
+      }
+    }
+  }
+}

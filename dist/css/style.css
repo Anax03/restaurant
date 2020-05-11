@@ -1,0 +1,910 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+  background: #e9ebee; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+header {
+  padding: 1.4rem;
+  background: #579c87;
+  text-align: center;
+  height: 20vh; }
+  header #logo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fdcb46;
+    cursor: pointer;
+    text-decoration: none; }
+
+.grid {
+  width: 80%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem; }
+  .grid .lanote {
+    position: relative;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    background: #fcdfdb; }
+    .grid .lanote:hover h2, .grid .lanote:hover h3, .grid .lanote:hover i {
+      -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      -webkit-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      opacity: 0.8;
+      transform: scale(1.2); }
+    .grid .lanote a {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .grid .lanote h2 {
+      font-family: "Caveat", cursive;
+      font-size: 2.5rem; }
+    .grid .lanote h3 {
+      margin-top: 2rem;
+      font-family: "MedievalSharp", cursive;
+      font-size: 2rem;
+      font-style: oblique;
+      font-weight: bold; }
+    .grid .lanote .fas {
+      font-size: 4rem;
+      background-color: #f15861;
+      background-image: linear-gradient(45deg, #f15861, #f78f6a);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; }
+  .grid .lechic {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    background: #fff5fe;
+    position: relative; }
+    .grid .lechic:hover h2, .grid .lechic:hover h3, .grid .lechic:hover i {
+      -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      -webkit-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      opacity: 0.8;
+      transform: scale(1.2); }
+    .grid .lechic a {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .grid .lechic h2 {
+      font-family: "Croissant One", cursive;
+      font-size: 2.5rem; }
+    .grid .lechic h3 {
+      margin-top: 2rem;
+      font-family: "MedievalSharp", cursive;
+      font-size: 2rem;
+      font-style: oblique;
+      font-weight: bold; }
+    .grid .lechic h2 {
+      background-color: #030201;
+      background-image: linear-gradient(to right, #030201, #9861ef);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; }
+    .grid .lechic h3 {
+      color: #c77412; }
+  .grid .ledelic {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    position: relative; }
+    .grid .ledelic:hover h2, .grid .ledelic:hover h3, .grid .ledelic:hover i {
+      -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      -webkit-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      opacity: 0.8;
+      transform: scale(1.2); }
+    .grid .ledelic a {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .grid .ledelic h2 {
+      font-family: "Dancing Script", cursive;
+      font-size: 2.5rem; }
+    .grid .ledelic h3 {
+      margin-top: 2rem;
+      font-family: "MedievalSharp", cursive;
+      font-size: 2rem;
+      font-style: oblique;
+      font-weight: bold; }
+    .grid .ledelic h2 {
+      background-color: #0431df;
+      background-image: linear-gradient(to right, #0431df, #97c9f9);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; }
+    .grid .ledelic h3 {
+      color: #0887fb; }
+  .grid .lapalette {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    background: #fdfffd;
+    position: relative; }
+    .grid .lapalette:hover h2, .grid .lapalette:hover h3, .grid .lapalette:hover i {
+      -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      -webkit-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+      opacity: 0.8;
+      transform: scale(1.2); }
+    .grid .lapalette a {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .grid .lapalette h2 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 2.5rem; }
+    .grid .lapalette h3 {
+      margin-top: 2rem;
+      font-family: "MedievalSharp", cursive;
+      font-size: 2rem;
+      font-style: oblique;
+      font-weight: bold; }
+    .grid .lapalette h2 {
+      background-color: #4c9f42;
+      background-image: linear-gradient(to right, #4c9f42, #bfff7e);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; }
+    .grid .lapalette h3 {
+      color: #72bf56; }
+
+.proch {
+  background: #579c87;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  border-radius: 0.1rem 0.3rem;
+  padding: 0.6rem;
+  color: #fdcb46; }
+
+.point {
+  display: inline-block;
+  animation: typing 3.5s infinite; }
+
+@keyframes typing {
+  from {
+    opacity: 0; }
+  to {
+    width: 1; } }
+footer {
+  height: 7vh;
+  margin-top: 1rem;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: #579c87;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer a {
+    margin: 0 1rem;
+    font-weight: bolder;
+    color: #fdcb46; }
+    footer a:hover {
+      animation: wiggle 0.5s ease-in infinite; }
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(12deg); }
+  100% {
+    transform: rotate(-10deg); } }
+.firstLogo {
+  margin-bottom: 2rem;
+  text-align: center; }
+  .firstLogo .fas {
+    font-size: 4rem;
+    background-color: #f15861;
+    background-image: linear-gradient(45deg, #f15861, #f78f6a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; }
+
+.finalLogo {
+  margin: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+  .finalLogo h2 {
+    margin-left: 1rem; }
+  .finalLogo .fas {
+    font-size: 2rem;
+    background-color: #f15861;
+    background-image: linear-gradient(45deg, #f15861, #f78f6a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; }
+
+.gridMenuOneCollumn {
+  width: 80%;
+  margin: auto; }
+  .gridMenuOneCollumn p {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 1rem;
+    font-style: italic; }
+
+.lanote .container {
+  width: 70%;
+  margin: 1rem auto;
+  background: #fcdfdb;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem; }
+.lanote .decor h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: black;
+  top: 1rem;
+  left: 1px; }
+.lanote .decor h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: black;
+  top: 1rem;
+  right: 1px; }
+
+.decor {
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto; }
+
+.gridMenu {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  gap: 0.9rem; }
+  .gridMenu em {
+    display: block;
+    text-align: center; }
+
+.decor h2 {
+  position: relative; }
+  .decor h2 span {
+    font-family: "MedievalSharp", cursive;
+    font-weight: bolder;
+    position: relative; }
+    .decor h2 span:hover:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 10%;
+      background: #fdcb46;
+      animation: od 0.4s ease-in; }
+@keyframes od {
+  from {
+    width: 0%; } }
+.gridMenu p {
+  font-family: "Raleway", sans-serif;
+  font-style: italic; }
+
+.lechic .container {
+  width: 70%;
+  margin: 1rem auto;
+  background: #fff5fe;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem; }
+.lechic .container h1 {
+  font-weight: bolder;
+  font-size: 2rem; }
+.lechic .container h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  background-color: #030201;
+  background-image: linear-gradient(to right, #030201, #9861ef);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; }
+.lechic .container .appe h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #c67412;
+  top: 1rem;
+  left: 1px; }
+.lechic .container .appe h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #c67412;
+  top: 1rem;
+  right: 1px; }
+.lechic .container .papilles h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #a56799;
+  top: 1rem;
+  left: 1px; }
+.lechic .container .papilles h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #a56799;
+  top: 1rem;
+  right: 1px; }
+.lechic .container .gour h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #6e4ccc;
+  top: 1rem;
+  left: 1px; }
+.lechic .container .gour h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #6e4ccc;
+  top: 1rem;
+  right: 1px; }
+.lechic .container .appe,
+.lechic .container .brown {
+  color: #c67412; }
+.lechic .container .papilles,
+.lechic .container .purple {
+  color: #a56799; }
+.lechic .container .blue,
+.lechic .container .gour {
+  color: #6e4ccc; }
+
+.ledelice .container {
+  width: 70%;
+  margin: 1rem auto;
+  background: #f9f9f9;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem; }
+.ledelice h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  background-color: #0431df;
+  background-image: linear-gradient(to right, #0431df, #97c9f9);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; }
+.ledelice .container h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 3rem; }
+.ledelice .container .a h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #0228dd;
+  top: 1rem;
+  left: 1px; }
+.ledelice .container .a h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #0228dd;
+  top: 1rem;
+  right: 1px; }
+.ledelice .container .b h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #0670f3;
+  top: 1rem;
+  left: 1px; }
+.ledelice .container .b h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #0670f3;
+  top: 1rem;
+  right: 1px; }
+.ledelice .container .c h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #6e4ccc;
+  top: 1rem;
+  left: 1px; }
+.ledelice .container .c h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #6e4ccc;
+  top: 1rem;
+  right: 1px; }
+
+.lepalette .container {
+  width: 70%;
+  margin: 1rem auto;
+  background: #fdfffd;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem; }
+.lepalette h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  background-color: #4c9f42;
+  background-image: linear-gradient(to right, #4c9f42, #97c9f9);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; }
+.lepalette .container h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: bolder;
+  font-size: 3rem; }
+.lepalette .container .e h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #4da043;
+  top: 1rem;
+  left: 1px; }
+.lepalette .container .e h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #4da043;
+  top: 1rem;
+  right: 1px; }
+.lepalette .container .f h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #a5ea71;
+  top: 1rem;
+  left: 1px; }
+.lepalette .container .f h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #a5ea71;
+  top: 1rem;
+  right: 1px; }
+.lepalette .container .g h2:before {
+  content: '';
+  width: 4rem;
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 80%;
+  background: #8bd464;
+  top: 1rem;
+  left: 1px; }
+.lepalette .container .g h2:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 0.4rem;
+  border-radius: 100%;
+  background: #8bd464;
+  top: 1rem;
+  right: 1px; }
+
+.mentions .container {
+  margin: auto;
+  width: 90%; }
+  .mentions .container h2,
+  .mentions .container p {
+    margin: 1rem; }
+
+@media screen and (max-width: 768px) {
+  .grid {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem; }
+
+  .proch {
+    width: 50%; }
+
+  .sections .container {
+    width: 95%; }
+
+  .lanote .decor h2:before {
+    width: 13%; }
+
+  .lanote .decor h2:after {
+    width: 13%; }
+
+  .finalLogo h2 {
+    margin-left: 0.5rem; }
+
+  .lechic .container .appe h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 9%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #c67412;
+    top: 1rem;
+    left: 1px; }
+  .lechic .container .appe h2:after {
+    content: '';
+    position: absolute;
+    width: 9%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #c67412;
+    top: 1rem;
+    right: 1px; }
+  .lechic .container .papilles h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #a56799;
+    top: 1rem;
+    left: 1px; }
+  .lechic .container .papilles h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #a56799;
+    top: 1rem;
+    right: 1px; }
+  .lechic .container .gour h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #6e4ccc;
+    top: 1rem;
+    left: 1px; }
+  .lechic .container .gour h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #6e4ccc;
+    top: 1rem;
+    right: 1px; }
+
+  .ledelice .container .a h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 9%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #0228dd;
+    top: 1rem;
+    left: 1px; }
+  .ledelice .container .a h2:after {
+    content: '';
+    position: absolute;
+    width: 9%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #0228dd;
+    top: 1rem;
+    right: 1px; }
+  .ledelice .container .b h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #0670f3;
+    top: 1rem;
+    left: 1px; }
+  .ledelice .container .b h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #0670f3;
+    top: 1rem;
+    right: 1px; }
+  .ledelice .container .c h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #6e4ccc;
+    top: 1rem;
+    left: 1px; }
+  .ledelice .container .c h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #6e4ccc;
+    top: 1rem;
+    right: 1px; }
+
+  .lepalette .container .e h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 12%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #4da043;
+    top: 1rem;
+    left: 1px; }
+  .lepalette .container .e h2:after {
+    content: '';
+    position: absolute;
+    width: 12%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #4da043;
+    top: 1rem;
+    right: 1px; }
+  .lepalette .container .f h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #a5ea71;
+    top: 1rem;
+    left: 1px; }
+  .lepalette .container .f h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #a5ea71;
+    top: 1rem;
+    right: 1px; }
+  .lepalette .container .g h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: #8bd464;
+    top: 1rem;
+    left: 1px; }
+  .lepalette .container .g h2:after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: #8bd464;
+    top: 1rem;
+    right: 1px; } }
+
+/*# sourceMappingURL=style.css.map */

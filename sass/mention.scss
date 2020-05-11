@@ -1,0 +1,12 @@
+@mixin mentions {
+  .mentions {
+    .container {
+      margin: auto;
+      width: 90%;
+      h2,
+      p {
+        margin: 1rem;
+      }
+    }
+  }
+}

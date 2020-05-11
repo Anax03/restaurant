@@ -1,0 +1,213 @@
+@import 'variables';
+//////////property
+
+/////General
+
+// Icon
+
+@mixin icon($size) {
+  .fas {
+    font-size: $size;
+    background-color: #f15861;
+    background-image: linear-gradient(45deg, #f15861, #f78f6a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+}
+
+//Grid Menu
+
+@mixin gridMenu {
+  .decor {
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .gridMenu {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 0.9rem;
+
+    em {
+      display: block;
+
+      text-align: center;
+    }
+  }
+}
+
+// Fonts menus
+
+@mixin fontsMenus {
+  .gridMenu {
+    p {
+      font-family: $raleway;
+      font-style: italic;
+    }
+  }
+}
+
+////Index
+//Menus de restaurant
+@mixin Gridat($backgroundColor, $fontFamily1, $fontFamily2) {
+  text-align: center;
+
+  @include animation;
+  a {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 5px solid $borderColor;
+  background: $backgroundColor;
+  h2 {
+    font-family: $fontFamily1;
+    font-size: 2.5rem;
+  }
+  h3 {
+    margin-top: 2rem;
+    font-family: $fontFamily2;
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: bold;
+  }
+}
+
+//Menu text gradiant colors
+
+@mixin Colors($Fontcolor1, $Fontcolor2, $fontColor3) {
+  position: relative;
+
+  h2 {
+    background-color: $Fontcolor2;
+    background-image: linear-gradient(to right, $Fontcolor2, $fontColor3);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  h3 {
+    color: $Fontcolor1;
+  }
+}
+
+// Text gradian titres
+
+@mixin ColorsTitre($Font1, $Font2) {
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: $Font1;
+    background-image: linear-gradient(to right, $Font1, $Font2);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+}
+
+// Animation
+
+@mixin animation {
+  &:hover h2,
+  &:hover h3,
+  &:hover i {
+    -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+    -webkit-transition: all 0.1s ease-out none
+      cubic-bezier(0.48, 0.01, 0.63, 1.02);
+    transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+///Lanote
+
+// section / Container
+
+@mixin sec($backgroundColor) {
+  .sections {
+  }
+  .container {
+    width: 70%;
+    margin: 1rem auto;
+    background: $backgroundColor;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+}
+
+//Decor h2
+
+@mixin decoration {
+  .decor h2 {
+    position: relative;
+    span {
+      font-family: $Medieva;
+      font-weight: bolder;
+      position: relative;
+
+      &:hover {
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 10%;
+          background: #fdcb46;
+          animation: od 0.4s ease-in;
+          @keyframes od {
+            from {
+              width: 0%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin decore($colorDecor, $width) {
+  h2:before {
+    content: '';
+    width: 4rem;
+    position: absolute;
+    width: $width;
+    height: 0.4rem;
+    border-radius: 80%;
+    background: $colorDecor;
+    top: 1rem;
+    left: 1px;
+  }
+
+  h2:after {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: 0.4rem;
+    border-radius: 100%;
+    background: $colorDecor;
+    top: 1rem;
+    right: 1px;
+  }
+}

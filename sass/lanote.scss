@@ -1,0 +1,43 @@
+@import 'functions';
+@import 'variables';
+
+/// All
+@mixin lanote {
+  //first Logo
+  .firstLogo {
+    margin-bottom: 2rem;
+    text-align: center;
+    @include icon(4rem);
+  }
+  // Last Logo
+  .finalLogo {
+    h2 {
+      margin-left: 1rem;
+    }
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    @include icon(2rem);
+  }
+
+  .gridMenuOneCollumn {
+    width: 80%;
+    margin: auto;
+    p {
+      font-family: $raleway;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+  }
+  .lanote {
+    @include sec($lanoteBackground);
+    .decor {
+      @include decore(black, 30%);
+    }
+  }
+
+  @include gridMenu;
+  @include decoration;
+  @include fontsMenus;
+}
