@@ -12,6 +12,7 @@
     background-image: linear-gradient(45deg, #f15861, #f78f6a);
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -57,7 +58,7 @@
 @mixin Gridat($backgroundColor, $fontFamily1, $fontFamily2) {
   text-align: center;
 
-  @include animation;
+  @include transitionOpacityScale;
   a {
     position: absolute;
     cursor: pointer;
@@ -90,25 +91,28 @@
 
 //Menu text gradiant colors
 
-@mixin Colors($Fontcolor1, $Fontcolor2, $fontColor3) {
+@mixin Colors($Fontcolor, $gradiantColor1, $gradiantColor2) {
   position: relative;
 
   h2 {
-    background-color: $Fontcolor2;
-    background-image: linear-gradient(to right, $Fontcolor2, $fontColor3);
     background-size: 100%;
+    background: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    background-image: linear-gradient(
+      to right,
+      $gradiantColor2,
+      $gradiantColor1
+    );
   }
   h3 {
-    color: $Fontcolor1;
+    color: $Fontcolor;
   }
 }
 
 // Text gradian titres
-
 @mixin ColorsTitre($Font1, $Font2) {
   h1 {
     text-align: center;
@@ -117,6 +121,8 @@
     background-color: $Font1;
     background-image: linear-gradient(to right, $Font1, $Font2);
     background-size: 100%;
+
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -124,18 +130,23 @@
   }
 }
 
-// Animation
+// Animation transition
 
-@mixin animation {
-  &:hover h2,
-  &:hover h3,
-  &:hover i {
-    -moz-transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
-    -webkit-transition: all 0.1s ease-out none
-      cubic-bezier(0.48, 0.01, 0.63, 1.02);
-    transition: all 0.1s ease-out none cubic-bezier(0.48, 0.01, 0.63, 1.02);
-    opacity: 0.8;
-    transform: scale(1.2);
+@mixin transitionOpacityScale {
+  transition: transform 1s ease-in;
+
+  &:hover {
+    animation: opa 0.2s ease-in forwards;
+    @keyframes opa {
+      to {
+        opacity: 0.7;
+      }
+    }
+    h2,
+    h3,
+    i {
+      transform: scale(1.3);
+    }
   }
 }
 
