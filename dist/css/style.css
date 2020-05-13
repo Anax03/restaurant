@@ -498,7 +498,7 @@ footer {
 .lechic .container h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: large;
   background-color: #030201;
   background-image: linear-gradient(to right, #030201, #9861ef);
   background-size: 100%;
@@ -584,7 +584,7 @@ footer {
 .ledelice h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: large;
   background-color: #0431df;
   background-image: linear-gradient(to right, #0431df, #97c9f9);
   background-size: 100%;
@@ -665,7 +665,7 @@ footer {
 .lepalette h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: large;
   background-color: #4c9f42;
   background-image: linear-gradient(to right, #4c9f42, #97c9f9);
   background-size: 100%;
