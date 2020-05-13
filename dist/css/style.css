@@ -153,7 +153,7 @@ header {
   .grid .lanote {
     position: relative;
     text-align: center;
-    transition: transform 1s ease-in;
+    transition: transform 0.1s ease-in;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ header {
     border: 5px solid rgba(0, 0, 0, 0.1);
     background: #fcdfdb; }
     .grid .lanote:hover {
-      animation: opa 0.2s ease-in forwards; }
+      animation: opa 0.1s ease-in forwards; }
 @keyframes opa {
   to {
     opacity: 0.7; } }
@@ -184,7 +184,7 @@ header {
     .grid .lanote h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-style: oblique;
       font-weight: bold; }
     .grid .lanote .fas {
@@ -199,7 +199,7 @@ header {
       -moz-text-fill-color: transparent; }
   .grid .lechic {
     text-align: center;
-    transition: transform 1s ease-in;
+    transition: transform 0.1s ease-in;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ header {
     background: #fff5fe;
     position: relative; }
     .grid .lechic:hover {
-      animation: opa 0.2s ease-in forwards; }
+      animation: opa 0.1s ease-in forwards; }
 @keyframes opa {
   to {
     opacity: 0.7; } }
@@ -231,7 +231,7 @@ header {
     .grid .lechic h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-style: oblique;
       font-weight: bold; }
     .grid .lechic h2 {
@@ -246,7 +246,7 @@ header {
       color: #0887fb; }
   .grid .ledelic {
     text-align: center;
-    transition: transform 1s ease-in;
+    transition: transform 0.1s ease-in;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -257,7 +257,7 @@ header {
     background: #f9f9f9;
     position: relative; }
     .grid .ledelic:hover {
-      animation: opa 0.2s ease-in forwards; }
+      animation: opa 0.1s ease-in forwards; }
 @keyframes opa {
   to {
     opacity: 0.7; } }
@@ -278,7 +278,7 @@ header {
     .grid .ledelic h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-style: oblique;
       font-weight: bold; }
     .grid .ledelic h2 {
@@ -293,7 +293,7 @@ header {
       color: #0887fb; }
   .grid .lapalette {
     text-align: center;
-    transition: transform 1s ease-in;
+    transition: transform 0.1s ease-in;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ header {
     background: #fdfffd;
     position: relative; }
     .grid .lapalette:hover {
-      animation: opa 0.2s ease-in forwards; }
+      animation: opa 0.1s ease-in forwards; }
 @keyframes opa {
   to {
     opacity: 0.7; } }
@@ -325,7 +325,7 @@ header {
     .grid .lapalette h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-style: oblique;
       font-weight: bold; }
     .grid .lapalette h2 {
@@ -498,7 +498,7 @@ footer {
 .lechic .container h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: large;
+  font-size: 2rem;
   background-color: #030201;
   background-image: linear-gradient(to right, #030201, #9861ef);
   background-size: 100%;
@@ -584,7 +584,7 @@ footer {
 .ledelice h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: large;
+  font-size: 2rem;
   background-color: #0431df;
   background-image: linear-gradient(to right, #0431df, #97c9f9);
   background-size: 100%;
@@ -665,7 +665,7 @@ footer {
 .lepalette h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: large;
+  font-size: 2rem;
   background-color: #4c9f42;
   background-image: linear-gradient(to right, #4c9f42, #97c9f9);
   background-size: 100%;
@@ -749,6 +749,16 @@ footer {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr; }
+    .grid .lanote h2,
+    .grid .lechic h2,
+    .grid .ledelic h2,
+    .grid .lapalette h2 {
+      font-size: 1.8rem; }
+    .grid .lanote h3,
+    .grid .lechic h3,
+    .grid .ledelic h3,
+    .grid .lapalette h3 {
+      font-size: 1rem; }
 
   .proch {
     width: 50%; }

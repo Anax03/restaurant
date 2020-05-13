@@ -83,7 +83,7 @@
   h3 {
     margin-top: 2rem;
     font-family: $fontFamily2;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: oblique;
     font-weight: bold;
   }
@@ -113,13 +113,13 @@
 }
 
 // Text gradian titres
-@mixin ColorsTitre($Font1, $Font2) {
+@mixin ColorsTitre($color1, $color2) {
   h1 {
     text-align: center;
     font-weight: bolder;
-    font-size: large;
-    background-color: $Font1;
-    background-image: linear-gradient(to right, $Font1, $Font2);
+    font-size: 2rem;
+    background-color: $color1;
+    background-image: linear-gradient(to right, $color1, $color2);
     background-size: 100%;
 
     background-clip: text;
@@ -133,10 +133,10 @@
 // Animation transition
 
 @mixin transitionOpacityScale {
-  transition: transform 1s ease-in;
+  transition: transform 0.1s ease-in;
 
   &:hover {
-    animation: opa 0.2s ease-in forwards;
+    animation: opa 0.1s ease-in forwards;
     @keyframes opa {
       to {
         opacity: 0.7;

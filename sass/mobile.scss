@@ -6,6 +6,19 @@
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr;
+
+    .lanote h2,
+    .lechic h2,
+    .ledelic h2,
+    .lapalette h2 {
+      font-size: 1.8rem;
+    }
+    .lanote h3,
+    .lechic h3,
+    .ledelic h3,
+    .lapalette h3 {
+      font-size: 1rem;
+    }
   }
   .proch {
     width: 50%;
