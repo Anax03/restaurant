@@ -170,7 +170,7 @@ header {
       .grid .lanote:hover h2,
       .grid .lanote:hover h3,
       .grid .lanote:hover i {
-        transform: scale(1.3); }
+        transform: scale(1.2); }
     .grid .lanote a {
       position: absolute;
       cursor: pointer;
@@ -217,7 +217,7 @@ header {
       .grid .lechic:hover h2,
       .grid .lechic:hover h3,
       .grid .lechic:hover i {
-        transform: scale(1.3); }
+        transform: scale(1.2); }
     .grid .lechic a {
       position: absolute;
       cursor: pointer;
@@ -264,7 +264,7 @@ header {
       .grid .ledelic:hover h2,
       .grid .ledelic:hover h3,
       .grid .ledelic:hover i {
-        transform: scale(1.3); }
+        transform: scale(1.2); }
     .grid .ledelic a {
       position: absolute;
       cursor: pointer;
@@ -311,7 +311,7 @@ header {
       .grid .lapalette:hover h2,
       .grid .lapalette:hover h3,
       .grid .lapalette:hover i {
-        transform: scale(1.3); }
+        transform: scale(1.2); }
     .grid .lapalette a {
       position: absolute;
       cursor: pointer;
