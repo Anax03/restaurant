@@ -665,7 +665,7 @@ footer {
         font-size: 2rem; }
 
   header {
-    height: 7rem; }
+    height: 6rem; }
     header #logo {
       font-size: 2rem; }
 
@@ -680,7 +680,7 @@ footer {
       margin: 3rem auto; }
 
   .mentions {
-    height: 70rem; }
+    height: 75rem; }
     .mentions .container {
       margin: 3rem auto;
       width: 90%; }
@@ -689,6 +689,6 @@ footer {
         margin: 1rem; }
 
   footer {
-    height: 4rem; } }
+    height: 3rem; } }
 
 /*# sourceMappingURL=style.css.map */
