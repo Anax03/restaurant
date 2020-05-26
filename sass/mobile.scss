@@ -1,6 +1,52 @@
 @import './utils/functions';
 
+//// eveything
+
+@mixin mobileAll {
+  @media screen and (max-width: 768px) {
+    @include mobileIndex;
+    @include mobileMenus;
+
+    ///Ver small screens
+    @media screen and (max-width: 320px) {
+      @include smallScreen;
+    }
+  }
+  //Ipad ,ipad pro
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    @include largeScreen;
+  }
+}
+
+// Small Screen
+@mixin smallScreen {
+  .proch {
+    width: 60%;
+  }
+  #lechichTitre {
+    font-size: 1rem;
+  }
+  .finalLogo {
+    h2 {
+      margin: auto 0.6rem;
+      font-size: 1rem;
+    }
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    @include icon(2rem);
+  }
+}
+
+///Meduim Screen
+
 @mixin mobileIndex {
+  // font-size for index menus
+  .general h2,
+  #chica {
+    font-size: 1.7rem;
+  }
   header {
     height: 10vh;
     padding: 0;
@@ -63,86 +109,69 @@
   }
 }
 
-/// Decoration lines Lechic
+// Large screen
 
-//// eveything
-//Mobiles
-@mixin mobileAll {
-  @media screen and (max-width: 768px) {
-    @include mobileIndex;
-    @include mobileMenus;
-
-    ///Ver small screens
-    @media screen and (max-width: 320px) {
-      .proch {
-        width: 60%;
-      }
-      #lechichTitre {
-        font-size: 1.2rem;
-      }
-      .finalLogo {
-        h2 {
-          margin: auto 0.6rem;
-          font-size: 1rem;
-        }
-
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        @include icon(2rem);
-      }
+@mixin largeScreen {
+  .decor {
+    h2 {
+      font-size: 2rem;
+    }
+    img {
+      width: 5rem;
+      height: 1rem;
     }
   }
-  //Ipad ,ipad pro
-  @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .grid {
-      width: 95%;
-      margin: 1rem auto;
-      display: grid;
-      grid-template-columns: 1fr;
+  .grid {
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+    .general {
+      height: 60vh;
       .lanote h2,
       .lechic h2,
       .ledelic h2,
-      .lapalette h2 {
-        font-size: 3rem;
+      .lapalette h2,
+      #chica {
+        font-size: 1.6rem;
       }
       .lanote h3,
       .lechic h3,
       .ledelic h3,
       .lapalette h3 {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
-    header {
-      height: 15vh;
-    }
-    .sections {
-      height: 100vh;
+  }
+  header {
+    height: 15vh;
+  }
+  .sections {
+    height: 100%;
 
-      .container {
-        width: 100%;
-        height: 80vh;
-      }
-
-      .gridMenu {
-        margin-bottom: 3rem;
-      }
-      .container h1 {
-        margin: 3rem auto;
-      }
+    .container {
+      width: 90%;
+      height: 100%;
     }
 
-    .mentions {
-      height: 90%;
-      .container {
-        margin: auto;
-        width: 90%;
+    .gridMenu {
+      margin-bottom: 3rem;
+    }
+    .container h1 {
+      margin: 3rem auto;
+    }
+  }
 
-        h2,
-        p {
-          margin: 1rem;
-        }
+  .mentions {
+    height: 90%;
+    .container {
+      margin: auto;
+      width: 90%;
+
+      h2,
+      p {
+        margin: 1rem;
       }
     }
   }

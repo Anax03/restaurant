@@ -187,7 +187,7 @@ header {
       height: 100%; }
     .grid .lanote h2 {
       font-family: "Caveat", cursive;
-      font-size: 2rem; }
+      font-size: 2.5rem; }
     .grid .lanote h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
@@ -236,7 +236,7 @@ header {
       height: 100%; }
     .grid .lechic h2 {
       font-family: "Marck Script", cursive;
-      font-size: 2rem; }
+      font-size: 2.5rem; }
     .grid .lechic h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
@@ -285,7 +285,7 @@ header {
       height: 100%; }
     .grid .ledelic h2 {
       font-family: "Dancing Script", cursive;
-      font-size: 2rem; }
+      font-size: 2.5rem; }
     .grid .ledelic h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
@@ -334,7 +334,7 @@ header {
       height: 100%; }
     .grid .lapalette h2 {
       font-family: "Kaushan Script", cursive;
-      font-size: 2rem; }
+      font-size: 2.5rem; }
     .grid .lapalette h3 {
       margin-top: 2rem;
       font-family: "MedievalSharp", cursive;
@@ -569,10 +569,6 @@ footer {
     margin: 1rem; }
 
 @media screen and (max-width: 768px) {
-  .general h2,
-  #chica {
-    font-size: 1.7rem; }
-
   header {
     height: 10vh;
     padding: 0;
@@ -620,7 +616,7 @@ footer {
     width: 60%; }
 
   #lechichTitre {
-    font-size: 1rem; }
+    font-size: 1.2rem; }
 
   .finalLogo {
     display: flex;
@@ -639,39 +635,33 @@ footer {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; } }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-  .decor h2 {
-    font-size: 2rem; }
-  .decor img {
-    width: 5rem;
-    height: 1rem; }
+  body {
+    background-color: red; }
 
   .grid {
     width: 95%;
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr; }
-    .grid .general {
-      height: 60vh; }
-      .grid .general .lanote h2,
-      .grid .general .lechic h2,
-      .grid .general .ledelic h2,
-      .grid .general .lapalette h2,
-      .grid .general #chica {
-        font-size: 1.6rem; }
-      .grid .general .lanote h3,
-      .grid .general .lechic h3,
-      .grid .general .ledelic h3,
-      .grid .general .lapalette h3 {
-        font-size: 2rem; }
+    grid-template-columns: 1fr; }
+    .grid .lanote h2,
+    .grid .lechic h2,
+    .grid .ledelic h2,
+    .grid .lapalette h2 {
+      font-size: 3rem; }
+    .grid .lanote h3,
+    .grid .lechic h3,
+    .grid .ledelic h3,
+    .grid .lapalette h3 {
+      font-size: 3rem; }
 
   header {
     height: 15vh; }
 
   .sections {
-    height: 100%; }
+    height: 100vh; }
     .sections .container {
-      width: 90%;
-      height: 100%; }
+      width: 100%;
+      height: 80vh; }
     .sections .gridMenu {
       margin-bottom: 3rem; }
     .sections .container h1 {
@@ -686,4 +676,4 @@ footer {
       .mentions .container p {
         margin: 1rem; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
