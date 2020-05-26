@@ -95,14 +95,33 @@
   }
   //Ipad ,ipad pro
   @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .grid {
+      width: 95%;
+      margin: 1rem auto;
+      display: grid;
+      grid-template-columns: 1fr;
+
+      .lanote h2,
+      .lechic h2,
+      .ledelic h2,
+      .lapalette h2 {
+        font-size: 3rem;
+      }
+      .lanote h3,
+      .lechic h3,
+      .ledelic h3,
+      .lapalette h3 {
+        font-size: 3rem;
+      }
+    }
     header {
-      height: 10vh;
+      height: 15vh;
     }
     .sections {
-      height: 90vh;
+      height: 100vh;
 
       .container {
-        width: 90%;
+        width: 100%;
         height: 80vh;
       }
 
@@ -111,6 +130,19 @@
       }
       .container h1 {
         margin: 3rem auto;
+      }
+    }
+
+    .mentions {
+      height: 90%;
+      .container {
+        margin: auto;
+        width: 90%;
+
+        h2,
+        p {
+          margin: 1rem;
+        }
       }
     }
   }

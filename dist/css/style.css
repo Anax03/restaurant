@@ -125,6 +125,7 @@
   box-sizing: border-box; }
 
 body {
+  height: 100%;
   line-height: 1.4;
   font-family: "Open Sans", sans-serif; }
 
@@ -634,17 +635,42 @@ footer {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; } }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+  .grid {
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr; }
+    .grid .lanote h2,
+    .grid .lechic h2,
+    .grid .ledelic h2,
+    .grid .lapalette h2 {
+      font-size: 3rem; }
+    .grid .lanote h3,
+    .grid .lechic h3,
+    .grid .ledelic h3,
+    .grid .lapalette h3 {
+      font-size: 3rem; }
+
   header {
-    height: 10vh; }
+    height: 15vh; }
 
   .sections {
-    height: 90vh; }
+    height: 100vh; }
     .sections .container {
-      width: 90%;
+      width: 100%;
       height: 80vh; }
     .sections .gridMenu {
       margin-bottom: 3rem; }
     .sections .container h1 {
-      margin: 3rem auto; } }
+      margin: 3rem auto; }
+
+  .mentions {
+    height: 90%; }
+    .mentions .container {
+      margin: auto;
+      width: 90%; }
+      .mentions .container h2,
+      .mentions .container p {
+        margin: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
