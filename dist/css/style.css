@@ -433,8 +433,8 @@ footer {
     font-style: italic; }
 
 .lanote .container {
-  height: 100%;
-  width: 70%;
+  width: 75%;
+  min-height: 100vh;
   margin: 1rem auto;
   background: #fcdfdb;
   padding: 1rem;
@@ -487,8 +487,8 @@ footer {
   font-style: italic; }
 
 .lechic .container {
-  height: 100%;
-  width: 70%;
+  width: 75%;
+  min-height: 100vh;
   margin: 1rem auto;
   background: #fff5fe;
   padding: 1rem;
@@ -519,8 +519,8 @@ footer {
   color: #6e4ccc; }
 
 .ledelice .container {
-  height: 100%;
-  width: 70%;
+  width: 75%;
+  min-height: 100vh;
   margin: 1rem auto;
   background: #edefef;
   padding: 1rem;
@@ -543,8 +543,8 @@ footer {
   font-size: 2rem; }
 
 .lepalette .container {
-  height: 100%;
-  width: 70%;
+  width: 75%;
+  min-height: 100vh;
   margin: 1rem auto;
   background: #fdfffd;
   padding: 1rem;
