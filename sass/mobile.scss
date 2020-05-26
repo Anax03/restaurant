@@ -42,6 +42,9 @@
 ///Meduim Screen
 
 @mixin mobileIndex {
+  .black img {
+    transform: rotate(-10deg);
+  }
   // font-size for index menus
   .general h2,
   #chica {
@@ -106,6 +109,9 @@
 // Large screen
 
 @mixin largeScreen {
+  .black img {
+    transform: rotate(-2deg);
+  }
   .decor {
     h2 {
       font-size: 2rem;

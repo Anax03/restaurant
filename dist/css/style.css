@@ -576,6 +576,9 @@ footer {
     margin: 1rem; }
 
 @media screen and (max-width: 768px) {
+  .black img {
+    transform: rotate(-10deg); }
+
   .general h2,
   #chica {
     font-size: 1.7rem; }
@@ -643,6 +646,9 @@ footer {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; } }
 @media screen and (max-width: 1300px) and (min-width: 768px) {
+  .black img {
+    transform: rotate(-2deg); }
+
   .decor h2 {
     font-size: 2rem; }
   .decor img {
