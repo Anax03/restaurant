@@ -643,6 +643,7 @@ footer {
     height: 1rem; }
 
   .grid {
+    height: 74rem;
     width: 95%;
     margin: 1rem auto;
     display: grid;
