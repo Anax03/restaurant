@@ -153,7 +153,8 @@ header {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem; }
+  gap: 1rem;
+  align-items: stretch; }
   .grid .lanote {
     position: relative;
     text-align: center;
@@ -432,6 +433,7 @@ footer {
     font-style: italic; }
 
 .lanote .container {
+  height: 100%;
   width: 70%;
   margin: 1rem auto;
   background: #fcdfdb;
@@ -485,6 +487,7 @@ footer {
   font-style: italic; }
 
 .lechic .container {
+  height: 100%;
   width: 70%;
   margin: 1rem auto;
   background: #fff5fe;
@@ -516,6 +519,7 @@ footer {
   color: #6e4ccc; }
 
 .ledelice .container {
+  height: 100%;
   width: 70%;
   margin: 1rem auto;
   background: #edefef;
@@ -539,6 +543,7 @@ footer {
   font-size: 2rem; }
 
 .lepalette .container {
+  height: 100%;
   width: 70%;
   margin: 1rem auto;
   background: #fdfffd;
@@ -635,7 +640,7 @@ footer {
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; } }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1300px) and (min-width: 768px) {
   .decor h2 {
     font-size: 2rem; }
   .decor img {

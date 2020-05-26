@@ -167,6 +167,7 @@
 
 @mixin sec($backgroundColor) {
   .container {
+    height: 100%;
     width: 70%;
     margin: 1rem auto;
     background: $backgroundColor;
