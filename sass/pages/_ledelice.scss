@@ -1,5 +1,5 @@
-@import 'functions';
-@import 'variables';
+@import '../utils/functions.scss';
+@import '../utils/variables.scss';
 
 @mixin ledelice {
   .ledelice {
@@ -14,17 +14,6 @@
         font-family: $dancing-script;
         font-weight: bolder;
         font-size: 2rem;
-      }
-
-      .a {
-        @include decore(#0228dd, 30%);
-      }
-      .b {
-        @include decore(#0670f3, 30%);
-      }
-
-      .c {
-        @include decore(#6e4ccc, 30%);
       }
     }
   }

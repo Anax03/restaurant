@@ -1,5 +1,5 @@
-@import 'functions';
-@import 'variables';
+@import '../utils/functions.scss';
+@import '../utils/variables.scss';
 
 @mixin lepalette {
   .lepalette {
@@ -14,17 +14,6 @@
         font-family: $kaushan;
         font-weight: bolder;
         font-size: 2rem;
-      }
-
-      .e {
-        @include decore(#4da043, 30%);
-      }
-      .f {
-        @include decore(#a5ea71, 30%);
-      }
-
-      .g {
-        @include decore(#8bd464, 30%);
       }
     }
   }

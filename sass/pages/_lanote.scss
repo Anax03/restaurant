@@ -1,5 +1,5 @@
-@import 'functions';
-@import 'variables';
+@import '../utils/functions.scss';
+@import '../utils/variables.scss';
 
 /// All
 @mixin lanote {
@@ -33,7 +33,6 @@
   .lanote {
     @include sec($lanoteBackground);
     .decor {
-      @include decore(black, 30%);
     }
   }
 

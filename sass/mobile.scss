@@ -1,6 +1,17 @@
-@import 'functions';
+@import './utils/functions';
 
 @mixin mobileIndex {
+  header {
+    height: 10vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #logo {
+      font-size: 2rem;
+    }
+  }
   .grid {
     width: 95%;
     margin: 1rem auto;
@@ -26,16 +37,23 @@
 }
 
 @mixin mobileMenus {
+  .black {
+    img {
+      transform: rotate(-10deg);
+    }
+  }
+
+  .decor {
+    h2 {
+      font-size: 1rem;
+    }
+    img {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
   .sections .container {
     width: 95%;
-  }
-
-  .lanote .decor h2:before {
-    width: 13%;
-  }
-
-  .lanote .decor h2:after {
-    width: 13%;
   }
 
   .finalLogo {
@@ -46,54 +64,54 @@
 }
 
 /// Decoration lines Lechic
-@mixin Lines {
-  .lechic .container {
-    .appe {
-      h2 {
-        font-size: 1.3rem;
+
+//// eveything
+//Mobiles
+@mixin mobileAll {
+  @media screen and (max-width: 768px) {
+    @include mobileIndex;
+    @include mobileMenus;
+
+    ///Ver small screens
+    @media screen and (max-width: 320px) {
+      .proch {
+        width: 60%;
       }
-      @include decore(#c67412, 3%);
-    }
-    .papilles {
-      @include decore(#a56799, 3%);
-    }
+      #lechichTitre {
+        font-size: 1.2rem;
+      }
+      .finalLogo {
+        h2 {
+          margin: auto 0.6rem;
+          font-size: 1rem;
+        }
 
-    .gour {
-      @include decore(#6e4ccc, 3%);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        @include icon(2rem);
+      }
     }
   }
-}
-
-/// Decoration lines Ledelice
-
-@mixin Lines2 {
-  .ledelice .container {
-    .a {
-      @include decore(#0228dd, 6%);
+  //Ipad ,ipad pro
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    header {
+      height: 10vh;
     }
-    .b {
-      @include decore(#0670f3, 6%);
-    }
+    .sections {
+      height: 90vh;
 
-    .c {
-      @include decore(#6e4ccc, 6%);
-    }
-  }
-}
+      .container {
+        width: 90%;
+        height: 80vh;
+      }
 
-//Decoration Lines lepalette
-
-@mixin Lines3 {
-  .lepalette .container {
-    .e {
-      @include decore(#4da043, 12%);
-    }
-    .f {
-      @include decore(#a5ea71, 10%);
-    }
-
-    .g {
-      @include decore(#8bd464, 10%);
+      .gridMenu {
+        margin-bottom: 3rem;
+      }
+      .container h1 {
+        margin: 3rem auto;
+      }
     }
   }
 }

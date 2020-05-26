@@ -133,10 +133,12 @@ a {
   cursor: pointer; }
 
 header {
-  padding: 1.4rem;
   background: #579c87;
   text-align: center;
-  height: 20vh; }
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   header #logo {
     font-family: "Roboto", sans-serif;
     font-size: 4rem;
@@ -259,7 +261,7 @@ header {
     align-items: center;
     border-radius: 0.4rem;
     border: 5px solid rgba(0, 0, 0, 0.1);
-    background: #f9f9f9;
+    background: #edefef;
     position: relative; }
     .grid .ledelic:hover {
       animation: opa 0.1s ease-in forwards; }
@@ -353,7 +355,7 @@ header {
   text-align: center;
   width: 30%;
   margin: auto;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 0.6rem;
   color: #fdcb46; }
 
@@ -435,30 +437,19 @@ footer {
   padding: 1rem;
   border: none;
   border-radius: 0.3rem; }
-.lanote .decor h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: black;
-  top: 1rem;
-  left: 1px; }
-.lanote .decor h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: black;
-  top: 1rem;
-  right: 1px; }
 
 .decor {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: 1rem auto; }
+  .decor h2 {
+    text-align: center;
+    font-size: 1.2rem; }
+  .decor img {
+    width: 15rem;
+    height: 1rem;
+    margin: auto 0; }
 
 .gridMenu {
   width: 80%;
@@ -513,63 +504,6 @@ footer {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent; }
-.lechic .container .appe h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #c67412;
-  top: 1rem;
-  left: 1px; }
-.lechic .container .appe h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #c67412;
-  top: 1rem;
-  right: 1px; }
-.lechic .container .papilles h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #a56799;
-  top: 1rem;
-  left: 1px; }
-.lechic .container .papilles h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #a56799;
-  top: 1rem;
-  right: 1px; }
-.lechic .container .gour h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #6e4ccc;
-  top: 1rem;
-  left: 1px; }
-.lechic .container .gour h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #6e4ccc;
-  top: 1rem;
-  right: 1px; }
 .lechic .container .appe,
 .lechic .container .brown {
   color: #c67412; }
@@ -583,7 +517,7 @@ footer {
 .ledelice .container {
   width: 70%;
   margin: 1rem auto;
-  background: #f9f9f9;
+  background: #edefef;
   padding: 1rem;
   border: none;
   border-radius: 0.3rem; }
@@ -602,63 +536,6 @@ footer {
   font-family: "Dancing Script", cursive;
   font-weight: bolder;
   font-size: 2rem; }
-.ledelice .container .a h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #0228dd;
-  top: 1rem;
-  left: 1px; }
-.ledelice .container .a h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #0228dd;
-  top: 1rem;
-  right: 1px; }
-.ledelice .container .b h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #0670f3;
-  top: 1rem;
-  left: 1px; }
-.ledelice .container .b h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #0670f3;
-  top: 1rem;
-  right: 1px; }
-.ledelice .container .c h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #6e4ccc;
-  top: 1rem;
-  left: 1px; }
-.ledelice .container .c h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #6e4ccc;
-  top: 1rem;
-  right: 1px; }
 
 .lepalette .container {
   width: 70%;
@@ -682,63 +559,6 @@ footer {
   font-family: "Kaushan Script", cursive;
   font-weight: bolder;
   font-size: 2rem; }
-.lepalette .container .e h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #4da043;
-  top: 1rem;
-  left: 1px; }
-.lepalette .container .e h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #4da043;
-  top: 1rem;
-  right: 1px; }
-.lepalette .container .f h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #a5ea71;
-  top: 1rem;
-  left: 1px; }
-.lepalette .container .f h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #a5ea71;
-  top: 1rem;
-  right: 1px; }
-.lepalette .container .g h2:before {
-  content: '';
-  width: 4rem;
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 80%;
-  background: #8bd464;
-  top: 1rem;
-  left: 1px; }
-.lepalette .container .g h2:after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 0.4rem;
-  border-radius: 100%;
-  background: #8bd464;
-  top: 1rem;
-  right: 1px; }
 
 .mentions .container {
   margin: auto;
@@ -748,6 +568,15 @@ footer {
     margin: 1rem; }
 
 @media screen and (max-width: 768px) {
+  header {
+    height: 10vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header #logo {
+      font-size: 2rem; }
+
   .grid {
     width: 95%;
     margin: 1rem auto;
@@ -767,192 +596,55 @@ footer {
   .proch {
     width: 50%; }
 
+  .black img {
+    transform: rotate(-10deg); }
+
+  .decor h2 {
+    font-size: 1rem; }
+  .decor img {
+    width: 1rem;
+    height: 1rem; }
+
   .sections .container {
     width: 95%; }
 
-  .lanote .decor h2:before {
-    width: 13%; }
-
-  .lanote .decor h2:after {
-    width: 13%; }
-
   .finalLogo h2 {
-    margin-left: 0.5rem; }
+    margin-left: 0.5rem; } }
+@media screen and (max-width: 768px) and (max-width: 320px) {
+  .proch {
+    width: 60%; }
 
-  .lechic .container .appe h2 {
-    font-size: 1.3rem; }
-  .lechic .container .appe h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #c67412;
-    top: 1rem;
-    left: 1px; }
-  .lechic .container .appe h2:after {
-    content: '';
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #c67412;
-    top: 1rem;
-    right: 1px; }
-  .lechic .container .papilles h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #a56799;
-    top: 1rem;
-    left: 1px; }
-  .lechic .container .papilles h2:after {
-    content: '';
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #a56799;
-    top: 1rem;
-    right: 1px; }
-  .lechic .container .gour h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #6e4ccc;
-    top: 1rem;
-    left: 1px; }
-  .lechic .container .gour h2:after {
-    content: '';
-    position: absolute;
-    width: 3%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #6e4ccc;
-    top: 1rem;
-    right: 1px; }
+  #lechichTitre {
+    font-size: 1.2rem; }
 
-  .ledelice .container .a h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #0228dd;
-    top: 1rem;
-    left: 1px; }
-  .ledelice .container .a h2:after {
-    content: '';
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #0228dd;
-    top: 1rem;
-    right: 1px; }
-  .ledelice .container .b h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #0670f3;
-    top: 1rem;
-    left: 1px; }
-  .ledelice .container .b h2:after {
-    content: '';
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #0670f3;
-    top: 1rem;
-    right: 1px; }
-  .ledelice .container .c h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #6e4ccc;
-    top: 1rem;
-    left: 1px; }
-  .ledelice .container .c h2:after {
-    content: '';
-    position: absolute;
-    width: 6%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #6e4ccc;
-    top: 1rem;
-    right: 1px; }
+  .finalLogo {
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+    .finalLogo h2 {
+      margin: auto 0.6rem;
+      font-size: 1rem; }
+    .finalLogo .fas {
+      font-size: 2rem;
+      background-color: #f15861;
+      background-image: linear-gradient(45deg, #f15861, #f78f6a);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; } }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    height: 10vh; }
 
-  .lepalette .container .e h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 12%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #4da043;
-    top: 1rem;
-    left: 1px; }
-  .lepalette .container .e h2:after {
-    content: '';
-    position: absolute;
-    width: 12%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #4da043;
-    top: 1rem;
-    right: 1px; }
-  .lepalette .container .f h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 10%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #a5ea71;
-    top: 1rem;
-    left: 1px; }
-  .lepalette .container .f h2:after {
-    content: '';
-    position: absolute;
-    width: 10%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #a5ea71;
-    top: 1rem;
-    right: 1px; }
-  .lepalette .container .g h2:before {
-    content: '';
-    width: 4rem;
-    position: absolute;
-    width: 10%;
-    height: 0.4rem;
-    border-radius: 80%;
-    background: #8bd464;
-    top: 1rem;
-    left: 1px; }
-  .lepalette .container .g h2:after {
-    content: '';
-    position: absolute;
-    width: 10%;
-    height: 0.4rem;
-    border-radius: 100%;
-    background: #8bd464;
-    top: 1rem;
-    right: 1px; } }
+  .sections {
+    height: 90vh; }
+    .sections .container {
+      width: 90%;
+      height: 80vh; }
+    .sections .gridMenu {
+      margin-bottom: 3rem; }
+    .sections .container h1 {
+      margin: 3rem auto; } }
 
 /*# sourceMappingURL=style.css.map */

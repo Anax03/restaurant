@@ -1,13 +1,12 @@
-@import 'variables';
 @import 'mobile';
-@import 'functions';
-@import 'lanote';
-@import 'index';
-@import 'lechic';
-@import 'ledelice';
-@import 'lepalette';
-@import 'mention';
-
+@import './utils/variables';
+@import './utils/functions';
+@import './pages/index';
+@import './pages/lanote';
+@import './pages/lechic';
+@import './pages/ledelice';
+@import './pages/lepalette';
+@import './pages/mention';
 // General styling
 * {
   padding: 0;
@@ -43,10 +42,4 @@ a {
 @include mentions;
 
 /////Mobile
-@media screen and (max-width: 768px) {
-  @include mobileIndex;
-  @include mobileMenus;
-  @include Lines;
-  @include Lines2;
-  @include Lines3;
-}
+@include mobileAll;

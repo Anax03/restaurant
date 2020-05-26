@@ -1,5 +1,5 @@
-@import 'functions';
-@import 'variables';
+@import '../utils/functions.scss';
+@import '../utils/variables.scss';
 @mixin lechic {
   .lechic {
     @include sec($lechicBackground);
@@ -9,21 +9,12 @@
         font-weight: bold;
         font-size: 2rem;
       }
+
       @include ColorsTitre(
         $lechicfontColorgradiant1,
         $lechicFontColorGradiant2
       );
 
-      .appe {
-        @include decore(#c67412, 30%);
-      }
-      .papilles {
-        @include decore(#a56799, 30%);
-      }
-
-      .gour {
-        @include decore(#6e4ccc, 30%);
-      }
       .appe,
       .brown {
         color: #c67412;
