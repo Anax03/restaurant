@@ -670,7 +670,7 @@ footer {
       font-size: 2rem; }
 
   .sections {
-    height: 70rem; }
+    height: 75rem; }
     .sections .container {
       width: 90%;
       height: 100%; }
@@ -686,6 +686,9 @@ footer {
       width: 90%; }
       .mentions .container h2,
       .mentions .container p {
-        margin: 1rem; } }
+        margin: 1rem; }
+
+  footer {
+    height: 4rem; } }
 
 /*# sourceMappingURL=style.css.map */
