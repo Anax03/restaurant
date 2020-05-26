@@ -373,6 +373,7 @@ header {
 footer {
   height: 7vh;
   margin-top: 1rem;
+  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
