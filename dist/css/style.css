@@ -651,7 +651,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr; }
     .grid .general {
-      height: 60vh; }
+      height: 30rem; }
       .grid .general .lanote h2,
       .grid .general .lechic h2,
       .grid .general .ledelic h2,
@@ -665,7 +665,9 @@ footer {
         font-size: 2rem; }
 
   header {
-    height: 15vh; }
+    height: 7rem; }
+    header #logo {
+      font-size: 2rem; }
 
   .sections {
     height: 100%; }

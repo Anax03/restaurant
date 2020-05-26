@@ -128,7 +128,7 @@
     grid-template-columns: 1fr 1fr;
 
     .general {
-      height: 60vh;
+      height: 30rem;
       .lanote h2,
       .lechic h2,
       .ledelic h2,
@@ -145,7 +145,10 @@
     }
   }
   header {
-    height: 15vh;
+    height: 7rem;
+    #logo {
+      font-size: 2rem;
+    }
   }
   .sections {
     height: 100%;
