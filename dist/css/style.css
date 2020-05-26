@@ -674,15 +674,13 @@ footer {
     header #logo {
       font-size: 2rem; }
 
-  .sections {
-    height: 75rem; }
-    .sections .container {
-      width: 90%;
-      height: 100%; }
-    .sections .gridMenu {
-      margin-bottom: 3rem; }
-    .sections .container h1 {
-      margin: 3rem auto; }
+  .sections .container {
+    width: 90%;
+    height: 100%; }
+  .sections .gridMenu {
+    margin-bottom: 3rem; }
+  .sections .container h1 {
+    margin: 3rem auto; }
 
   .mentions {
     height: 75rem; }
