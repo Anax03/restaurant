@@ -76,15 +76,19 @@
   }
 
   .point {
+    overflow: hidden;
+    white-space: nowrap;
+
     display: inline-block;
-    animation: typing 3.5s infinite;
-  }
-  @keyframes typing {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
+    animation: typing 2s steps(30, end) infinite;
+
+    @keyframes typing {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
   }
   //footer
@@ -113,16 +117,28 @@
       &:hover {
         animation: wiggle 0.5s ease-in infinite;
         @keyframes wiggle {
-          0% {
-            transform: rotate(0deg);
+          0%,
+          7% {
+            transform: rotateZ(0deg);
           }
-
-          50% {
-            transform: rotate(12deg);
+          15% {
+            transform: rotateZ(-15deg);
           }
-
+          20% {
+            transform: rotateZ(10deg);
+          }
+          25% {
+            transform: rotateZ(-10deg);
+          }
+          30% {
+            transform: rotateZ(6deg);
+          }
+          35% {
+            transform: rotateZ(-4deg);
+          }
+          40%,
           100% {
-            transform: rotate(-10deg);
+            transform: rotateZ(0);
           }
         }
       }
