@@ -460,6 +460,9 @@ footer {
     font-style: italic; }
 
 .lanote .container {
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
   width: 75%;
   min-height: 100vh;
   margin: 1rem auto;
@@ -514,6 +517,9 @@ footer {
   font-style: italic; }
 
 .lechic .container {
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
   width: 75%;
   min-height: 100vh;
   margin: 1rem auto;
@@ -546,6 +552,9 @@ footer {
   color: #6e4ccc; }
 
 .ledelice .container {
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
   width: 75%;
   min-height: 100vh;
   margin: 1rem auto;
@@ -570,6 +579,9 @@ footer {
   font-size: 2rem; }
 
 .lepalette .container {
+  -webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.75);
   width: 75%;
   min-height: 100vh;
   margin: 1rem auto;
