@@ -21,6 +21,7 @@
 // Small Screen
 @mixin smallScreen {
   .proch {
+    text-align: start;
     width: 60%;
   }
   #lechichTitre {
@@ -81,6 +82,7 @@
     }
   }
   .proch {
+    text-align: start;
     width: 50%;
   }
 }
@@ -109,6 +111,10 @@
 // Large screen
 
 @mixin largeScreen {
+  .proch {
+    width: 40%;
+    text-align: center;
+  }
   .black img {
     transform: rotate(-2deg);
   }

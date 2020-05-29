@@ -361,6 +361,7 @@ header {
       color: #72bf56; }
 
 .proch {
+  position: relative;
   background: #579c87;
   text-align: center;
   width: 30%;
@@ -368,17 +369,22 @@ header {
   border-radius: 0.5rem;
   padding: 0.6rem;
   color: #fdcb46; }
-
-.point {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  animation: typing 2s steps(30, end) infinite; }
-@keyframes typing {
-  from {
-    opacity: 0; }
+  .proch:after {
+    position: absolute;
+    content: '';
+    background: url(../images/dots.png) 0 0/cover;
+    color: #fdcb46;
+    display: inline-block;
+    animation: type 3s steps(30) infinite reverse;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 2rem;
+    top: 30%;
+    height: 60%;
+    margin-left: 5px; }
+@keyframes type {
   to {
-    opacity: 1; } }
+    width: 0; } }
 footer {
   height: 7vh;
   margin-top: 1rem;
@@ -628,6 +634,7 @@ footer {
       font-size: 1rem; }
 
   .proch {
+    text-align: start;
     width: 50%; }
 
   .decor h2 {
@@ -643,6 +650,7 @@ footer {
     margin-left: 0.5rem; } }
 @media screen and (max-width: 768px) and (max-width: 320px) {
   .proch {
+    text-align: start;
     width: 60%; }
 
   #lechichTitre {
@@ -665,6 +673,10 @@ footer {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent; } }
 @media screen and (max-width: 1300px) and (min-width: 768px) {
+  .proch {
+    width: 40%;
+    text-align: center; }
+
   .black img {
     transform: rotate(-2deg); }
 
