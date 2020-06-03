@@ -373,15 +373,10 @@ header {
     position: absolute;
     content: '';
     background: url(../images/dots.png) 0 0/cover;
-    color: #fdcb46;
-    display: inline-block;
     animation: type 3s steps(30) infinite reverse;
-    overflow: hidden;
-    white-space: nowrap;
     width: 2rem;
     top: 30%;
-    height: 60%;
-    margin-left: 5px; }
+    height: 60%; }
 @keyframes type {
   to {
     width: 0; } }

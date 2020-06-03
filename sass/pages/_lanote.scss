@@ -32,8 +32,6 @@
   }
   .lanote {
     @include sec($lanoteBackground);
-    .decor {
-    }
   }
 
   @include gridMenu;
