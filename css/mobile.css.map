@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAQ,uFAA+E;AAC/E,kFAA0E;AAC1E,4EAAoE;AACpE,kFAA0E;AAC1E,oFAA4E;AAC5E,oFAA4E;AAC5E,oFAA4E;AAC5E,mFAA2E;AAC3E,mFAA2E;AAC3E,mFAA2E;AAC3E,iFAAyE",
-"sources": ["../sass/utils/_variables.scss"],
-"names": [],
-"file": "mobile.css"
-}
